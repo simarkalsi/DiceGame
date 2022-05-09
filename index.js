@@ -42,3 +42,15 @@ switch (randomNumber2) {
         break;
 
 } 
+if (randomNumber1>randomNumber2) {
+    document.querySelector("h1").innerHTML="Player 1 won &#128681;";
+ 
+}
+else if (randomNumber1<randomNumber2) {
+    document.querySelector("h1").innerHTML="&#128681; Player 2 won";
+ 
+}
+else {
+    document.querySelector("h1").innerHTML="Its tie!";
+ 
+}
